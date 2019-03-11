@@ -1,0 +1,15 @@
+.character-div {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.character-div img {
+    height: 100%;
+    margin: 10px;
+}
+
+.character-div p {
+    width: 100%;
+}

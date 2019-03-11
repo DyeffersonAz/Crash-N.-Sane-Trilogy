@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://i.redd.it/v6wisylc9b3z.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: round;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page {
+    background-color: white;
+    margin: 0 10%;
+}
+
+div {
+    background-color: white;
+    padding: 5px;
+}
+
+header {
+    background: rgb(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 2px 5px;
+    display: flex;
+}
+
+header li {
+    color: white;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover,
+header a:visited:hover {
+    color: red;
+}
+
+header li:hover {
+    color: red;
+}
+
+header a:visited {
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    height: auto;
+}
+
+footer {
+    background: rgb(68, 68, 68);
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.cfix {
+    overflow: auto;
+}
+
+#main-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#main-container img {
+    margin: 20px;
+    height: 15em;
+}
+
+#logo {
+    max-width: 200px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 50px;
+}
