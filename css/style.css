@@ -105,6 +105,14 @@ footer {
     height: 3em;
 }
 
+#Github-icon a:visited, #Github-icon a {
+    color: black;
+}
+
+#Github-icon a:hover {
+    color: red;
+}
+
 /*
     justify-content
     align-items
