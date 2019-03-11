@@ -20,7 +20,7 @@ header {
     background: rgb(68, 68, 68);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    padding: 2px 5px;
+    padding: 10px 10px;
     display: flex;
     flex-flow: wrap row;
     justify-content: flex-start;
@@ -93,12 +93,11 @@ footer {
 }
 
  #Github-icon {
-    background: none;
-    justify-self: flex-end;
-    color:white;
-    flex-wrap: wrap;
-    flex: 1;
-    text-align: right;
+    margin-left: auto;
+    color: white;
+    background: white;
+    color: black;
+    border-radius: 4px;
 }
 
 #Github-icon img {
