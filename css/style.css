@@ -33,6 +33,7 @@ header li {
 }
 
 header a {
+    color: white;
     text-decoration: none;
 }
 
@@ -73,14 +74,14 @@ footer {
     overflow: auto;
 }
 
-#main-container {
+main {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: row-reverse;
 }
 
-#main-container img {
+main img {
     margin: 20px;
     height: 15em;
 }
@@ -112,6 +113,10 @@ footer {
 
 #Github-icon a:hover {
     color: red;
+}
+
+.not-flex {
+    display: inline;
 }
 
 /*
