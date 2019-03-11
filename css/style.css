@@ -24,6 +24,7 @@ header {
     display: flex;
     flex-flow: wrap row;
     justify-content: flex-start;
+    
 }
 
 header li {
@@ -91,11 +92,13 @@ footer {
     min-height: 50px;
 }
 
-#Github-icon {
-    align-self: center;
-    color:white;
+ #Github-icon {
     background: none;
+    justify-self: flex-end;
+    color:white;
     flex-wrap: wrap;
+    flex: 1;
+    text-align: right;
 }
 
 #Github-icon img {
