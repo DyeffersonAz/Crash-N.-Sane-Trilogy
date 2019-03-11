@@ -24,7 +24,7 @@ header {
     display: flex;
     flex-flow: wrap row;
     justify-content: flex-start;
-    
+
 }
 
 header li {
@@ -92,7 +92,7 @@ footer {
     min-height: 50px;
 }
 
- #Github-icon {
+#Github-icon {
     margin-left: auto;
     color: white;
     background: white;
@@ -105,7 +105,8 @@ footer {
     height: 3em;
 }
 
-#Github-icon a:visited, #Github-icon a {
+#Github-icon a:visited,
+#Github-icon a {
     color: black;
 }
 
