@@ -6,8 +6,8 @@
 }
 
 .character-div img {
-    height: 100%;
-    margin: 10px;
+    width: 15em;
+    height: 12em;
 }
 
 .character-div p {
