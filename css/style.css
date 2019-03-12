@@ -6,9 +6,23 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@font-face {
+    font-family: crash-a-like;
+    src: url(../fonts/crash-a-like.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: crash-a-like, 'Arial Black', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
 #page {
     background-color: white;
     margin: 0 10%;
+}
+
+small {
+    font-size: 20px;
 }
 
 div {
@@ -117,6 +131,13 @@ main img {
 
 .not-flex {
     display: inline;
+}
+
+.video {
+    max-width: 640px;
+    max-height: 360px;
+    width: auto;
+    height: auto;
 }
 
 /*
