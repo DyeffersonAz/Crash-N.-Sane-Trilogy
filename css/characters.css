@@ -6,8 +6,7 @@
 }
 
 .character-div img {
-    height: 270px;
-    width: 350px;
+    max-width: 200px;
 }
 
 .character-div p {
